@@ -1,0 +1,53 @@
+body, html { width: 100%; }
+
+.gjw_foot { height: 380px; padding-top: 40px; background: #1A110A; }
+
+.gjw_foot .foot_head { width: 1200px; height: 110px; margin: 0 auto; }
+
+.gjw_foot .foot_head .foot_jiao { float: left; height: 90px; width: 350px; font-size: 16px; color: #fff; }
+
+.gjw_foot .foot_head .foot_jiao .foot_dianhua { width: 350px; height: 70px; color: #FBF152; font-size: 30px; }
+
+.gjw_foot .foot_head .foot_jiao .foot_dianhua .iconfont { color: #FBF152; font-size: 40px; margin-right: 15px; }
+
+.gjw_foot .foot_head .foot_ziy { width: 400px; height: 90px; font-size: 30px; padding-top: 28px; color: #FBF152; float: left; }
+
+.gjw_foot .foot_head .foot_ziy .foot_min { color: #fff; }
+
+.gjw_foot .foot_head .foot_ziy .foot_min .iconfont { color: #FBF152; margin-right: 15px; font-size: 40px; }
+
+.gjw_foot .foot_right { float: right; width: 350px; }
+
+.gjw_foot .foot_right .foot_wen { padding-left: 55px; color: #fff; width: 245px; float: left; text-align: right; }
+
+.gjw_foot .foot_right .foot_wen > p { height: 20px; }
+
+.gjw_foot .foot_right .foot_wen > p .bing { font-size: 18px; }
+
+.gjw_foot .foot_right .foot_img { float: right; }
+
+.gjw_foot .foot_right .foot_img img { width: 100px; }
+
+.gjw_foot .foot_shouming { border-top: 4px solid #ccc; padding-top: 20px; width: 1200px; padding-left: 50px; height: 300px; margin: 0 auto; }
+
+.gjw_foot .foot_shouming .foot_list > li { float: left; width: 170px; margin-left: 20px; }
+
+.gjw_foot .foot_shouming .foot_list > li > span { display: block; height: 28px; line-height: 28px; font-size: 20px; color: #fff; }
+
+.gjw_foot .foot_shouming .foot_list > li a { height: 20px; line-height: 20px; display: block; color: #E0E0E0; }
+
+.gjw_foot .foot_shouming .foot_list > li a.foot_y { color: #FF0; }
+
+.foot_over { width: 1200px; margin: 0 auto; padding-left: 20px; padding-top: 50px; }
+
+.foot_over > div .iconfont { padding-left: 60px; font-size: 40px; float: left; }
+
+.foot_over > div .small_tu { margin-left: 20px; float: left; width: 100px; height: 80px; }
+
+.foot_over > div .small_tu > span { display: inline-block; color: #c0c0c0; }
+
+.foot_over > div .small_tu > span:first-child { color: #f00; font-size: 20px; }
+
+.jieshu { width: 1200px; margin: 0 auto; }
+
+.jieshu p { margin: 0 auto; display: table; height: 40px; line-height: 40px; font-size: 12px; }

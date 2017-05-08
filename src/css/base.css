@@ -1,0 +1,39 @@
+/*重置样式表*/
+/*==========样式重置===========*/
+.clean:after{
+	content:"";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,a,input,img,ul,li,ol,dl,dt,dd{
+	padding:0;
+	margin:0;}
+
+ul,ol{
+	list-style:none;}
+img{
+	display:block;
+	border:0;}
+input{
+	outline:none;}
+header,footer,section,nav{
+	display:block;}
+
+body{
+	font-size:12px;
+	font-family:"微软雅黑";}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;}
+img{
+	border:0;
+	display:block;	
+}
+*{
+	box-sizing:border-box;}

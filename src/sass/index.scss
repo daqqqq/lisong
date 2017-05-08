@@ -1,0 +1,43 @@
+@import 'base.css';
+@import 'home';
+@import 'footer';
+// @import 'reset';
+// @import 'syle';
+ .index_ban{
+ 	margin: 0 auto;
+ 	width: 1200px;
+ 	.ban_list{
+ 		height: 453px;
+ 		width: 200px;
+ 		background: #C81623;
+ 		color: #fff;
+ 		.ban_hang{
+ 			height: 85px;
+ 			padding-left: 8px;
+ 			padding-top: 8px;
+	 		&:hover{
+	 			background:#fff;color:#000;
+	 			a{color:#000;}
+	 		}
+ 			>span{
+ 				display:block;
+ 				i{
+ 					color: #f00;
+ 				}
+ 			}
+ 			a{
+ 				padding: 6px;
+ 				color:#fff;
+ 				&:hover{color:#C81623;}
+ 			}
+ 		}
+ 		.ban_qingcang{
+ 			width: 200px;
+			height: 25px;
+			padding-left:8px;
+			&:hover{color:#000;background:#fff;}
+ 		}
+	
+ 	}
+
+ }

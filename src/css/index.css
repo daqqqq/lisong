@@ -1,0 +1,148 @@
+@import url(base.css);
+body, html { width: 100%; }
+
+.gjw_foot { height: 380px; padding-top: 40px; background: #1A110A; }
+
+.gjw_foot .foot_head { width: 1200px; height: 110px; margin: 0 auto; }
+
+.gjw_foot .foot_head .foot_jiao { float: left; height: 90px; width: 350px; font-size: 16px; color: #fff; }
+
+.gjw_foot .foot_head .foot_jiao .foot_dianhua { width: 350px; height: 70px; color: #FBF152; font-size: 30px; }
+
+.gjw_foot .foot_head .foot_jiao .foot_dianhua .iconfont { color: #FBF152; font-size: 40px; margin-right: 15px; }
+
+.gjw_foot .foot_head .foot_ziy { width: 400px; height: 90px; font-size: 30px; padding-top: 28px; color: #FBF152; float: left; }
+
+.gjw_foot .foot_head .foot_ziy .foot_min { color: #fff; }
+
+.gjw_foot .foot_head .foot_ziy .foot_min .iconfont { color: #FBF152; margin-right: 15px; font-size: 40px; }
+
+.gjw_foot .foot_right { float: right; width: 350px; }
+
+.gjw_foot .foot_right .foot_wen { padding-left: 55px; color: #fff; width: 245px; float: left; text-align: right; }
+
+.gjw_foot .foot_right .foot_wen > p { height: 20px; }
+
+.gjw_foot .foot_right .foot_wen > p .bing { font-size: 18px; }
+
+.gjw_foot .foot_right .foot_img { float: right; }
+
+.gjw_foot .foot_right .foot_img img { width: 100px; }
+
+.gjw_foot .foot_shouming { border-top: 4px solid #ccc; padding-top: 20px; width: 1200px; padding-left: 50px; height: 300px; margin: 0 auto; }
+
+.gjw_foot .foot_shouming .foot_list > li { float: left; width: 170px; margin-left: 20px; }
+
+.gjw_foot .foot_shouming .foot_list > li > span { display: block; height: 28px; line-height: 28px; font-size: 20px; color: #fff; }
+
+.gjw_foot .foot_shouming .foot_list > li a { height: 20px; line-height: 20px; display: block; color: #E0E0E0; }
+
+.gjw_foot .foot_shouming .foot_list > li a.foot_y { color: #FF0; }
+
+.foot_over { width: 1200px; margin: 0 auto; padding-left: 20px; padding-top: 50px; }
+
+.foot_over > div .iconfont { padding-left: 60px; font-size: 40px; float: left; }
+
+.foot_over > div .small_tu { margin-left: 20px; float: left; width: 100px; height: 80px; }
+
+.foot_over > div .small_tu > span { display: inline-block; color: #c0c0c0; }
+
+.foot_over > div .small_tu > span:first-child { color: #f00; font-size: 20px; }
+
+.jieshu { width: 1200px; margin: 0 auto; }
+
+.jieshu p { margin: 0 auto; display: table; height: 40px; line-height: 40px; font-size: 12px; }
+
+.head_top { background: #F7F7F7; width: 100%; height: 26px; }
+
+.head_top .buyWineTop_inner { margin: 0px auto; width: 1200px; background: #F7F7F7; }
+
+.head_top .buyWineTop_inner .byDatails { float: left; width: 100px; height: 26px; color: #444444; }
+
+.head_top .buyWineTop_inner .byDatails:hover { background: #fff; color: #EC7174; }
+
+.head_top .buyWineTop_inner .byDatails:hover i { transition: all .5s ease-in; transform: rotate(-180deg); }
+
+.head_top .buyWineTop_inner .byDatails div { padding: 5px; }
+
+.head_top .buyWineTop_inner .byDatails div i { display: inline-block; margin: 1px; }
+
+.head_top .buyWineTop_inner ul { float: right; height: 26px; }
+
+.head_top .buyWineTop_inner ul li { float: left; height: 26px; padding: 4px 20px; }
+
+.head_top .buyWineTop_inner ul li a { font-size: 12px; color: #333333; }
+
+.head_top .buyWineTop_inner ul li a:hover { color: #EC7174; }
+
+.head_top .buyWineTop_inner ul li a.hong { color: #F90000; }
+
+.head_top .buyWineTop_inner ul li a.Cblu { color: #01B0DF; margin-left: 4px; }
+
+.head_top .buyWineTop_inner ul li i { margin: 5px; }
+
+#container { width: 1200px; margin: 0 auto; }
+
+#container .seek { height: 120px; padding-top: 20px; }
+
+#container .seek .tu1 { float: left; width: 220px; }
+
+#container .seek .tu2 { float: left; width: 220px; }
+
+#container .seek .search { width: 540px; height: 90px; float: left; padding-top: 15px; }
+
+#container .seek .search form { height: 43px; }
+
+#container .seek .search form .text1 { padding-left: 5px; width: 450px; height: 40px; border: 4px solid #CE000C; border-right: 0; float: left; }
+
+#container .seek .search form .button1 { width: 65px; height: 40px; background: #CE000C; float: left; border: 0; color: #fff; }
+
+#container .seek .search .search_cls { height: 30px; float: left; width: 540px; padding-top: 5px; }
+
+#container .seek .search .search_cls > li { height: 20px; float: left; border-right: 1px solid #CCC; padding: 1px 10px; }
+
+#container .seek .search .search_cls > li > a { font-size: 14px; color: #F90000; }
+
+#container .seek .shopp_btn { margin-top: 30px; float: right; width: 220px; padding-left: 40px; height: 50px; }
+
+#container .seek .shopp_btn a { display: inline-block; height: 40px; width: 180px; font-size: 16px; line-height: 40px; text-align: center; background: #F7F7F7; border: 1px solid #ccc; }
+
+#container .seek .shopp_btn a > i { margin: 3px; color: #CE000C; }
+
+#container .nav_bar { height: 36px; }
+
+#container .nav_bar .nav_bar_lei { float: left; text-align: center; font-size: 16px; line-height: 36px; display: inline-block; width: 200px; height: 36px; color: #fff; background: #9B0009; }
+
+#container .nav_bar .nav_main { float: left; width: 800px; background: #fff; height: 36px; }
+
+#container .nav_bar .nav_main > li { float: left; padding: 7px 20px; }
+
+#container .nav_bar .nav_main > li a { font-size: 16px; color: #0D0D0F; position: relative; }
+
+#container .nav_bar .nav_main > li a.nav_shou { color: #CE000C; }
+
+#container .nav_bar .nav_main > li a i { color: #CE000C; right: -15px; top: -10px; position: absolute; }
+
+#container .nav_bar .nav_gif { width: 190px; height: 36px; float: right; background: #ccc; }
+
+.index_ban { margin: 0 auto; width: 1200px; }
+
+.index_ban .ban_list { height: 453px; width: 200px; background: #C81623; color: #fff; }
+
+.index_ban .ban_list .ban_hang { height: 85px; padding-left: 8px; padding-top: 8px; }
+
+.index_ban .ban_list .ban_hang:hover { background: #fff; color: #000; }
+
+.index_ban .ban_list .ban_hang:hover a { color: #000; }
+
+.index_ban .ban_list .ban_hang > span { display: block; }
+
+.index_ban .ban_list .ban_hang > span i { color: #f00; }
+
+.index_ban .ban_list .ban_hang a { padding: 6px; color: #fff; }
+
+.index_ban .ban_list .ban_hang a:hover { color: #C81623; }
+
+.index_ban .ban_list .ban_qingcang { width: 200px; height: 25px; padding-left: 8px; }
+
+.index_ban .ban_list .ban_qingcang:hover { color: #000; background: #fff; }

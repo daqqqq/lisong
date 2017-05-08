@@ -1,0 +1,137 @@
+$fontColor:#1A110A;
+$fontSize:#f00;
+body,html{width: 100%;}
+.gjw_foot{
+	height: 380px;
+	padding-top:40px;
+	background:$fontColor;
+	.foot_head{	
+		width: 1200px;
+		height: 110px;
+		margin:0 auto;		
+		.foot_jiao{
+
+			float: left;
+			height: 90px;
+			width: 350px;
+			font-size: 16px;
+			color: #fff;
+			.foot_dianhua{
+				width: 350px;
+				height: 70px;
+				color: #FBF152;
+				font-size: 30px;
+				.iconfont{
+					color: #FBF152;
+					font-size:40px;
+					margin-right:15px;
+				}		
+			}
+		}	
+		.foot_ziy{
+			width: 400px;
+			height:90px;
+			font-size: 30px;
+			padding-top:28px;
+			color: #FBF152;
+			float: left;
+			.foot_min{
+				color: #fff;
+				.iconfont{
+				color: #FBF152;
+					margin-right:15px;
+					font-size: 40px;
+					}
+				}
+			}
+		}
+		.foot_right{
+			float: right;
+			width: 350px;
+			.foot_wen{
+				padding-left:55px;
+				color: #fff;
+				width: 245px;
+				float: left;
+				text-align: right;
+				>p{
+					height: 20px;
+					.bing{font-size:18px;}
+				}
+			}
+			.foot_img{
+				float: right;
+				img{
+					// height:180px;
+				width: 100px;}
+			}
+	}
+	.foot_shouming{
+		border-top: 4px solid #ccc;
+		padding-top:20px;
+		width: 1200px;
+		padding-left:50px;
+		height: 300px;
+		margin:0 auto;
+		.foot_list{
+			// width: 180px;
+			>li{
+				float: left;
+				width: 170px;
+				margin-left:20px;
+				>span{
+					display: block;
+					height: 28px;
+					line-height: 28px;
+					font-size: 20px;
+					color: #fff;
+				}
+				a{
+					height: 20px;
+					line-height: 20px;
+					display: block;
+					color: #E0E0E0;
+					&.foot_y{
+						color:#FF0;
+					}
+				}
+			}
+		}
+	}
+}
+.foot_over{
+	width: 1200px;
+	margin:0 auto;
+	padding-left:20px;
+	padding-top:50px;
+	>div .iconfont{
+		padding-left:60px;
+		font-size: 40px;
+		float: left;
+	}
+	>div .small_tu{
+		margin-left: 20px;
+		float: left;
+		width: 100px;
+		height: 80px;
+		>span{
+			display: inline-block;
+			color: #c0c0c0;
+			&:first-child{
+				color:#f00;
+				font-size: 20px;
+			}
+		}
+	}
+}
+.jieshu{
+	width: 1200px;
+	margin: 0 auto;
+	p{
+		margin: 0 auto;
+		display: table;
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
+	}
+}
