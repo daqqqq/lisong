@@ -1,0 +1,44 @@
+@import url(base.css);
+.login { width: 1000px; margin: 0 auto; }
+
+.login .login_top { height: 90px; padding-top: 15px; }
+
+.login .login_top .top_l { float: left; }
+
+.login .login_top .top_r { float: right; }
+
+.login .login_top .top_r > li { float: left; padding: 20px 10px; }
+
+.login .login_top .top_r > li > a { color: #000; font-size: 16px; }
+
+.login .login_top .top_r > li > a i { margin: 5px; }
+
+.login .login_top .top_r > li > a.kefu { color: #f00; }
+
+.middle { width: 100%; height: 580px; border-top: 2px solid #ccc; padding-left: 150px; padding-top: 75px; background: #F2F2F2; }
+
+.middle .middle_l { float: left; }
+
+.middle .middle_r { float: left; margin-left: 50px; width: 500px; height: 437px; background: #fff; }
+
+.middle .middle_r > span { display: block; margin: 30px auto; font-size: 14px; display: table; }
+
+.middle .middle_r .text1 { display: block; margin: 0px auto; display: table; width: 390px; height: 50px; }
+
+.middle .middle_r > p { padding-left: 70px; padding-top: 20px; }
+
+.middle .middle_r > p a { color: #000; }
+
+.middle .middle_r .login_de { width: 390px; height: 50px; background: #FE0C2D; margin-left: 55px; margin-top: 10px; }
+
+.middle .middle_r .login_de span { display: table; margin: 0px auto; padding-top: 10px; }
+
+.middle .middle_r .login_de span a { display: block; font-size: 20px; color: #fff; }
+
+.middle .middle_r .login_b { margin-top: 20px; padding-left: 54px; position: relative; border-top: 4px solid #ccc; }
+
+.middle .middle_r .login_b p { margin-top: 10px; }
+
+.middle .middle_r .login_b .register { position: absolute; right: 0px; bottom: -107px; width: 90px; height: 30px; background: #f00; }
+
+.middle .middle_r .login_b .register a { padding-left: 15px; line-height: 30px; color: #fff; }

@@ -1,12 +1,20 @@
 @import 'base.css';
 @import 'home';
 @import 'footer';
+// @import 'jquery.lxcarousel.css';
 // @import 'reset';
 // @import 'syle';
- .index_ban{
+.index_tu{
+		position: relative;
+	}
+.index_ban{
  	margin: 0 auto;
+ 	
+	// right:0;
+	// top:0;
  	width: 1200px;
- 	.ban_list{
+ 	.ban_list{	
+ 		position: absolute;left: 32px;top:262px;
  		height: 453px;
  		width: 200px;
  		background: #C81623;
@@ -36,8 +44,104 @@
 			height: 25px;
 			padding-left:8px;
 			&:hover{color:#000;background:#fff;}
+ 		}	
+ 	}	
+ }
+.index_main{
+ 	width: 1200px;
+ 	margin: 0 auto;
+ 	padding-top:5px;
+ 	.index_maintu{
+ 		height: 171px;
+ 		>li{
+ 			float: left;
+ 			margin-right: 2px;
+ 			>a{
+
+ 				display: block;
+ 				width: 169px;
+ 				height:171px;	
+ 				img{
+ 					width: 100%;
+ 					height: 100%;
+ 				}
+ 			}
  		}
-	
  	}
 
  }
+.gjw_shan{
+		width: 1200px;
+		margin: 0 auto;
+		height: 300px;
+		.gjw_shan_top{
+			width: 1200px;
+			line-height: 50px;
+			height: 50px;
+			font-size: 18px;
+			.leftl{
+				float: left;
+				display: block;
+				width: 1000px;
+				height: 50px;
+				i{
+					margin-left: 10px;
+					font-size: 12px;
+					color: #c0c0c0;
+				}
+			}
+			.rightr{
+				display: block;
+				float:right;
+				width: 200px;
+				height: 50px;
+				>a{
+					margin-left: 10px;
+					font-size: 12px;
+					color: #c0c0c0; 	
+				}
+			}
+		}
+		.gjw_shan_l{
+			float: left;
+			width: 1000px;
+			.shan_tu{
+				>li {
+					float: left;
+					a{
+						display: block;
+						height: 230px;
+						width: 193px;
+						padding-left:20px;
+						padding-top:5px;
+						text-align: center;
+						border:1px solid #c0c0c0;
+					}
+				}
+			}
+		}
+		.gjw_shan_r{
+			float: left;
+			.shan_wenzi{
+				height: 230px;
+				width: 200px;
+				border:1px solid #c0c0c0;
+				p{
+					height: 30px;
+
+				}
+				.tutu{
+					width: 190px;
+					height: 75px;
+
+					>img{
+						margin-left: 5px;
+						width:190px;
+						height:75px;
+					}
+				}
+			}
+			
+		}
+
+}

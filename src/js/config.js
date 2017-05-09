@@ -1,9 +1,12 @@
 require.config({
-	// basrUrl:"js",
+	//basrUrl:"js",
 	paths:{
 		"jquery":"jquery-3.1.1",
-		// "com":"common",
-		// "hehe":"hehe",
-		// "dagou":"../lib/www"
-	}
+		"slideshow":"jquery.lxcarousel",
+
+	},	
+	 shim:{
+    	// 表示gdszoom依赖jquery
+    	"slideshow":["jquery"]
+    }
 });

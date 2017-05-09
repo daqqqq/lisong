@@ -1,0 +1,42 @@
+@import url(base.css);
+.login { width: 1000px; margin: 0 auto; }
+
+.login .login_top { height: 90px; padding-top: 15px; }
+
+.login .login_top .top_l { float: left; }
+
+.login .login_top .top_r { float: right; }
+
+.login .login_top .top_r > li { float: left; padding: 20px 10px; }
+
+.login .login_top .top_r > li > a { color: #000; font-size: 16px; }
+
+.login .login_top .top_r > li > a i { margin: 5px; }
+
+.login .login_top .top_r > li > a.kefu { color: #f00; }
+
+.middle_re { background: #F3F3F4; padding-top: 50px; }
+
+.middle_re .midde_content { padding-left: 30px; width: 900px; height: 500px; background: #fff; margin: 0 auto; border: 2px solid #ccc; }
+
+.middle_re .midde_content .lif { width: 400px; height: 500px; }
+
+.middle_re .midde_content .lif .lif_p { padding: 10px 0; padding-bottom: 10px; height: 50px; width: 500px; }
+
+.middle_re .midde_content .lif .lif_p li { float: left; padding: 15px 70px; border-bottom: 3px solid #ccc; width: 250px; height: 50px; border-bottom: 3px solid #ccc; }
+
+.middle_re .midde_content .lif .lif_p li:hover { border-bottom: 3px solid #FC504E; }
+
+.middle_re .midde_content .lif .lif_p li a { text-align: center; }
+
+.middle_re .midde_content .lif label { margin-left: 40px; }
+
+.middle_re .midde_content .lif label .text1 { margin-top: 15px; width: 380px; height: 40px; }
+
+.middle_re .midde_content .lif p { margin-left: 40px; }
+
+.middle_re .midde_content .lif .login_de { width: 350px; height: 50px; border-radius: 8px; background: #FE0C2D; margin-left: 55px; margin-top: 10px; }
+
+.middle_re .midde_content .lif .login_de a { display: table; margin: 0px auto; padding-top: 10px; font-size: 20px; color: #fff; }
+
+.middle_re .midde_content .lif .login_de a a { color: #fff; }
