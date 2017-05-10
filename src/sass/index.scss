@@ -1,7 +1,7 @@
 @import 'base.css';
 @import 'home';
 @import 'footer';
-// @import 'jquery.lxcarousel.css';
+@import 'jquery.lxcarousel.css';
 // @import 'reset';
 // @import 'syle';
 .index_tu{
@@ -140,8 +140,34 @@
 						height:75px;
 					}
 				}
-			}
-			
+			}		
 		}
-
+}
+.gjw_log{
+	margin:0 auto;
+	width: 1200px;
+	height: 180px;
+	.log_ma{
+		>li{
+			float: left;
+		}
+	}
+	.log_zhong{
+		height: 40px;
+		.log_middle{
+			line-height: 40px;
+			font-size: 18px;
+			height: 40px;
+			padding-right: 20px;
+			>span{
+				margin-left: 13px;
+				padding-left:20px;
+				height: 20px;
+				color: #c0c0c0;
+				border-left:2px solid #c0c0c0;
+				display:in-block;
+				font-size: 12px;
+			}
+		}
+	}
 }

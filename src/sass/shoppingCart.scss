@@ -1,0 +1,145 @@
+@import 'base.css';
+@import 'home';
+@import 'footer';
+@import 'jquery.gdszoom.css';
+// @import 'jquery.lxcarousel.css';
+ // 版心
+ .car_container{
+	width: 1200px;
+	margin : 0 auto;
+	.car_top{
+		height: 594px;
+		border:1px solid #c0c0c0;
+		// 头部容器左边
+		>.lis{
+			width: 450px;
+			float: left;
+			height: 500px;
+			// ul
+			.lis_l{
+				width: 450px;
+				height: 45px;
+				>li{
+					float: left;
+					padding: 10px 5px;
+					a:last-child{color:#f00;}
+					a{
+						font-size: 12px;
+					}
+					>span{
+							display: in-block;
+							margin-left:7px; 
+						}
+				}
+			}
+			.shopp_zoom{
+				width: 400px;
+				height: 400px;
+			}
+			.shopping_bo{
+				// margin-top: 10px;
+				width: 400px;
+				height: 100px;
+				.listsm{
+
+					border: 1px solid #c0c0c0;
+					border-left:0;
+					height: 90px;
+					>li{
+
+						float: left;
+						margin-top: 10px;
+						margin-left: 10px;
+						&:hover{
+								// box-sizing:content-box;
+								border:2px solid #f00;
+							}
+						img{							
+						height: 64px;
+						width: 64px;
+						}
+					}
+				}
+			}
+			.small_icon{
+				width: 400px;
+				height: 50px;
+				span:first-child{padding-left:50px;}
+				span:last-child{margin-left:70px;color:#fc0}
+				span:nth-child(2){color:yellow;}
+				span:nth-child(3){color:#f00;}
+				span:nth-child(4){color:#34C;}
+				span:nth-child(5){color:#0277E9;}
+
+				>span{
+					display: in-block;
+					height: 50px;
+					padding-right: 10px;
+					line-height: 50px;
+					width: 400px;
+				}
+			}
+		}
+		.lisri{
+			float: left;
+			width: 500px;
+			padding-top: 45px;
+			>P{
+				margin: 0 auto;
+				font-size: 18px;
+				display: table;
+				color: #000;
+			}
+			.cont{
+				height: 150px;
+				background: #F6F6F6;
+				>span{
+					display: block;
+					font-size: 16px;
+					height: 45px;
+					padding:13px;				
+					>i{
+						width: 39px;
+						margin-left: 5px;
+						margin-right:4px;
+						font-size: 24px;
+						color: #f00;
+					}
+					.heh{
+						color: #fff;
+						background:#f00;
+					}
+				}
+
+			}
+			.shop_gou{
+				p:nth-child(2){padding-left:10px;}
+				>p{	
+					height: 40px;
+					padding-top:10px;
+					font-size: 12px;
+					border-bottom: 2px dotted #ccc;
+					i{
+						margin-left: 5px;
+						margin-right: 5px;
+						display: in-block;
+						color: #f00;
+					}
+				}
+
+			}
+			.goumai{
+				a{
+					display: block;
+					float: left;
+					width: 170px;
+					height: 50px;
+					font-size: 20px;
+					line-height: 50px;
+					background:#f00;
+					text-align: center;
+				}
+			}
+		}
+	}
+ }

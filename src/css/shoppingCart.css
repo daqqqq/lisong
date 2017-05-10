@@ -1,5 +1,5 @@
 @import url(base.css);
-@import url(jquery.lxcarousel.css);
+@import url(jquery.gdszoom.css);
 .head_top { background: #F7F7F7; width: 100%; height: 26px; }
 
 .head_top .buyWineTop_inner { margin: 0px auto; width: 1200px; background: #F7F7F7; }
@@ -126,74 +126,66 @@ body, html { width: 100%; }
 
 .jieshu p { margin: 0 auto; display: table; height: 40px; line-height: 40px; font-size: 12px; }
 
-.index_tu { position: relative; }
+.car_container { width: 1200px; margin: 0 auto; }
 
-.index_ban { margin: 0 auto; width: 1200px; }
+.car_container .car_top { height: 594px; border: 1px solid #c0c0c0; }
 
-.index_ban .ban_list { position: absolute; left: 32px; top: 262px; height: 453px; width: 200px; background: #C81623; color: #fff; }
+.car_container .car_top > .lis { width: 450px; float: left; height: 500px; }
 
-.index_ban .ban_list .ban_hang { height: 85px; padding-left: 8px; padding-top: 8px; }
+.car_container .car_top > .lis .lis_l { width: 450px; height: 45px; }
 
-.index_ban .ban_list .ban_hang:hover { background: #fff; color: #000; }
+.car_container .car_top > .lis .lis_l > li { float: left; padding: 10px 5px; }
 
-.index_ban .ban_list .ban_hang:hover a { color: #000; }
+.car_container .car_top > .lis .lis_l > li a:last-child { color: #f00; }
 
-.index_ban .ban_list .ban_hang > span { display: block; }
+.car_container .car_top > .lis .lis_l > li a { font-size: 12px; }
 
-.index_ban .ban_list .ban_hang > span i { color: #f00; }
+.car_container .car_top > .lis .lis_l > li > span { display: in-block; margin-left: 7px; }
 
-.index_ban .ban_list .ban_hang a { padding: 6px; color: #fff; }
+.car_container .car_top > .lis .shopp_zoom { width: 400px; height: 400px; }
 
-.index_ban .ban_list .ban_hang a:hover { color: #C81623; }
+.car_container .car_top > .lis .shopping_bo { width: 400px; height: 100px; }
 
-.index_ban .ban_list .ban_qingcang { width: 200px; height: 25px; padding-left: 8px; }
+.car_container .car_top > .lis .shopping_bo .listsm { border: 1px solid #c0c0c0; border-left: 0; height: 90px; }
 
-.index_ban .ban_list .ban_qingcang:hover { color: #000; background: #fff; }
+.car_container .car_top > .lis .shopping_bo .listsm > li { float: left; margin-top: 10px; margin-left: 10px; }
 
-.index_main { width: 1200px; margin: 0 auto; padding-top: 5px; }
+.car_container .car_top > .lis .shopping_bo .listsm > li:hover { border: 2px solid #f00; }
 
-.index_main .index_maintu { height: 171px; }
+.car_container .car_top > .lis .shopping_bo .listsm > li img { height: 64px; width: 64px; }
 
-.index_main .index_maintu > li { float: left; margin-right: 2px; }
+.car_container .car_top > .lis .small_icon { width: 400px; height: 50px; }
 
-.index_main .index_maintu > li > a { display: block; width: 169px; height: 171px; }
+.car_container .car_top > .lis .small_icon span:first-child { padding-left: 50px; }
 
-.index_main .index_maintu > li > a img { width: 100%; height: 100%; }
+.car_container .car_top > .lis .small_icon span:last-child { margin-left: 70px; color: #fc0; }
 
-.gjw_shan { width: 1200px; margin: 0 auto; height: 300px; }
+.car_container .car_top > .lis .small_icon span:nth-child(2) { color: yellow; }
 
-.gjw_shan .gjw_shan_top { width: 1200px; line-height: 50px; height: 50px; font-size: 18px; }
+.car_container .car_top > .lis .small_icon span:nth-child(3) { color: #f00; }
 
-.gjw_shan .gjw_shan_top .leftl { float: left; display: block; width: 1000px; height: 50px; }
+.car_container .car_top > .lis .small_icon span:nth-child(4) { color: #34C; }
 
-.gjw_shan .gjw_shan_top .leftl i { margin-left: 10px; font-size: 12px; color: #c0c0c0; }
+.car_container .car_top > .lis .small_icon span:nth-child(5) { color: #0277E9; }
 
-.gjw_shan .gjw_shan_top .rightr { display: block; float: right; width: 200px; height: 50px; }
+.car_container .car_top > .lis .small_icon > span { display: in-block; height: 50px; padding-right: 10px; line-height: 50px; width: 400px; }
 
-.gjw_shan .gjw_shan_top .rightr > a { margin-left: 10px; font-size: 12px; color: #c0c0c0; }
+.car_container .car_top .lisri { float: left; width: 500px; padding-top: 45px; }
 
-.gjw_shan .gjw_shan_l { float: left; width: 1000px; }
+.car_container .car_top .lisri > P { margin: 0 auto; font-size: 18px; display: table; color: #000; }
 
-.gjw_shan .gjw_shan_l .shan_tu > li { float: left; }
+.car_container .car_top .lisri .cont { height: 150px; background: #F6F6F6; }
 
-.gjw_shan .gjw_shan_l .shan_tu > li a { display: block; height: 230px; width: 193px; padding-left: 20px; padding-top: 5px; text-align: center; border: 1px solid #c0c0c0; }
+.car_container .car_top .lisri .cont > span { display: block; font-size: 16px; height: 45px; padding: 13px; }
 
-.gjw_shan .gjw_shan_r { float: left; }
+.car_container .car_top .lisri .cont > span > i { width: 39px; margin-left: 5px; margin-right: 4px; font-size: 24px; color: #f00; }
 
-.gjw_shan .gjw_shan_r .shan_wenzi { height: 230px; width: 200px; border: 1px solid #c0c0c0; }
+.car_container .car_top .lisri .cont > span .heh { color: #fff; background: #f00; }
 
-.gjw_shan .gjw_shan_r .shan_wenzi p { height: 30px; }
+.car_container .car_top .lisri .shop_gou p:nth-child(2) { padding-left: 10px; }
 
-.gjw_shan .gjw_shan_r .shan_wenzi .tutu { width: 190px; height: 75px; }
+.car_container .car_top .lisri .shop_gou > p { height: 40px; padding-top: 10px; font-size: 12px; border-bottom: 2px dotted #ccc; }
 
-.gjw_shan .gjw_shan_r .shan_wenzi .tutu > img { margin-left: 5px; width: 190px; height: 75px; }
+.car_container .car_top .lisri .shop_gou > p i { margin-left: 5px; margin-right: 5px; display: in-block; color: #f00; }
 
-.gjw_log { margin: 0 auto; width: 1200px; height: 180px; }
-
-.gjw_log .log_ma > li { float: left; }
-
-.gjw_log .log_zhong { height: 40px; }
-
-.gjw_log .log_zhong .log_middle { line-height: 40px; font-size: 18px; height: 40px; padding-right: 20px; }
-
-.gjw_log .log_zhong .log_middle > span { margin-left: 13px; padding-left: 20px; height: 20px; color: #c0c0c0; border-left: 2px solid #c0c0c0; display: in-block; font-size: 12px; }
+.car_container .car_top .lisri .goumai a { display: block; float: left; width: 170px; height: 50px; font-size: 20px; line-height: 50px; background: #f00; text-align: center; }

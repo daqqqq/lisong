@@ -3,10 +3,12 @@ require.config({
 	paths:{
 		"jquery":"jquery-3.1.1",
 		"slideshow":"jquery.lxcarousel",
+		"gfdzoom":"jquery.gdszoom",
 
 	},	
 	 shim:{
     	// 表示gdszoom依赖jquery
-    	"slideshow":["jquery"]
+    	"slideshow":["jquery"],
+    	"gfdzoom":["jquery"],
     }
 });

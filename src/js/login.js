@@ -1,6 +1,6 @@
 require(['config'],function(){
 	require(['jquery'],function(){
-		$('header').load('../html/header.html');
+		$('header').load('header.html');
 		$('.login_gjw').click(function(){
 	        $.post('login.php',{
 		          email: $('#email').val(),
