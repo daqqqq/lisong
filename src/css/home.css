@@ -1,3 +1,13 @@
+.rightFixeBar .rightFixeBar_inner { position: fixed; right: 0; top: 0; width: 32px; height: 100%; background: #eaeaea; text-align: center; color: #fff; padding-top: 90px; }
+
+.rightFixeBar .rightFixeBar_inner a:nth-child(7) { margin-top: 40px; }
+
+.rightFixeBar .rightFixeBar_inner > a { padding: 10px 4px; color: #f00; display: block; font-size: 18px; cursor: pointer; }
+
+.rightFixeBar .rightFixeBar_inner > a:hover { background: #f00; color: #fff; }
+
+.rightFixeBar .rightFixeBar_inner > a .fbgou { display: block; }
+
 .head_top { background: #F7F7F7; width: 100%; height: 26px; }
 
 .head_top .buyWineTop_inner { margin: 0px auto; width: 1200px; background: #F7F7F7; }
