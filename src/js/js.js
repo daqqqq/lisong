@@ -1,6 +1,4 @@
-require(['config'],function(){
-	require(['jquery','addcont'],function(){
-			$(function() {
+	$(function() {
 					totl();
 					adddel()
 						//全选
@@ -97,7 +95,3 @@ require(['config'],function(){
 
 						})
 			}
-
-		
-	});
-})

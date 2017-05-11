@@ -6,7 +6,8 @@ require.config({
 		"gfdzoom":"jquery.gdszoom",
 		"shopcar":"jquery.fly",
 		"lazy":"../lib/jquery.lazyload",
-		"confirm":"jquery-confirm"
+		"confirm":"jquery-confirm",
+		"addcont":"js"
 
 	},	
 	 shim:{
@@ -15,6 +16,7 @@ require.config({
     	"gfdzoom":["jquery"],
     	"shopcar":["jquery"],
     	"lazy":["jquery"],
-    	"confirm":["jquery"]
+    	"confirm":["jquery"],
+    	"addcont":["jquery"]
     }
 });

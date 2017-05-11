@@ -204,7 +204,9 @@ body, html { width: 100%; }
 
 .car_container .car_top .lisri .shop_gou .nub p { height: 26px; padding-left: 10px; }
 
-.car_container .car_top .lisri .shop_gou .nub p > span { display: inline-block; border: 1px solid #c0c0c0; height: 26px; font-size: 12px; text-align: center; line-height: 26px; width: 50px; }
+.car_container .car_top .lisri .shop_gou .nub p .btn_num { display: inline-block; border: 1px solid #c0c0c0; height: 26px; font-size: 12px; text-align: center; line-height: 26px; width: 50px; }
+
+.car_container .car_top .lisri .shop_gou .nub p > button { margin: 0 5px; outline: none; }
 
 .car_container .car_top .lisri .goumai { height: 80px; padding-top: 15px; padding-left: 35px; }
 

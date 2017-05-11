@@ -9,9 +9,9 @@ require(['config'],function(){
 		// 	    event : "mouseover"
 		// });
 		// 提前加载图片
-		$("img.lazy").lazyload({
-		    threshold : 150
-		});
+		// $("img.lazy").lazyload({
+		//     threshold : 150
+		// });
 		// 经过五秒钟的延迟加载图片
 		// $(function() {
 		//     $("img.lazy").lazyload({

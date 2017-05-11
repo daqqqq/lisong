@@ -33,7 +33,7 @@
 
 .middle .middle_r .login_de span { display: table; margin: 0px auto; padding-top: 10px; }
 
-.middle .middle_r .login_de span a { display: block; font-size: 20px; color: #fff; }
+.middle .middle_r .login_de span a { cursor: pointer; display: block; font-size: 20px; color: #fff; }
 
 .middle .middle_r .login_b { margin-top: 20px; padding-left: 54px; position: relative; border-top: 4px solid #ccc; }
 

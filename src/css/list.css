@@ -139,6 +139,8 @@ body, html { width: 100%; }
 
 .list_lp { background-color: #FC1; }
 
+.list_lp img { min-height: 300px; min-width: 300px; }
+
 .list_lp .lp_list { margin: 0 auto; width: 1200px; }
 
 .list_lp .lp_list > li > a { display: table; margin: 0 auto; }

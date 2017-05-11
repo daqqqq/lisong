@@ -138,7 +138,7 @@
 					p{
 						height: 26px;
 						padding-left: 10px;
-						>span{
+						.btn_num{
 							display:inline-block;
 							border: 1px solid #c0c0c0;
 							height: 26px;
@@ -147,6 +147,12 @@
 							line-height: 26px;
 							width: 50px;
 						}
+						>button{
+							// border:none;
+							margin:0 5px;
+							outline: none;
+						}
+
 					}
 					
 				}

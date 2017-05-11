@@ -8,9 +8,9 @@ require(['config'],function(){
 		        }, function(response){
 		          var $obj = eval('(' + response + ')');
 		          if($obj.state){
-		            window.location.href = 'index.php';
+		            window.location.href = 'success.html';
 		          } else {
-		            $.alert($obj.message);
+		            alert($obj.message);
 		          }
 	        });       
 	    });

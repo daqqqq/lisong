@@ -9,7 +9,12 @@
 		display: table;
 	}
 }	
+
 .list_lp{
+	img{
+		min-height: 300px;
+		min-width: 300px;
+	}
 	background-color:#FC1;
 	.lp_list{
 		margin:0 auto;

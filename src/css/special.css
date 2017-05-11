@@ -1,4 +1,5 @@
 @import url(base.css);
+@import url(style.css);
 .spe_top { background: #EAEAEA; height: 50px; }
 
 .spe_top .box_spe { width: 1200px; margin: 0 auto; }
@@ -11,7 +12,9 @@
 
 .spe_top .box_spe .spe_ul > li { float: left; }
 
-.spe_top .box_spe .spe_ul > li > a { display: block; font-size: 14px; padding: 18px 25px; }
+.spe_top .box_spe .spe_ul > li .hon { color: #f00; }
+
+.spe_top .box_spe .spe_ul > li > a { display: block; color: #000; font-size: 14px; padding: 18px 25px; }
 
 .spe_container { width: 1200px; margin: 0 auto; }
 

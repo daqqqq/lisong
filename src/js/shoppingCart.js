@@ -13,6 +13,7 @@ require(['config'],function(){
 
 				});
 			})
+
 			// 购物车飞入
 			$('.add_car').on('click', addCart);
 				function addCart(event) {
@@ -30,5 +31,30 @@ require(['config'],function(){
 					    }
 					});
 				}
+
+
+			// 点击按钮，加减一
+			$(function(){  
+			    var t = $(".btn_num");  
+			    $(".btn_sum").click(function(){  
+			        t.val(parseInt(t.val())+1); 
+			         //当按加1时，解除-不可读状态 
+			        $(".btn_reduce").removeAttr("disabled");                  
+			    })  
+			    $(".btn_reduce").click(function(){  
+			    			//判断数量值大于1时才可以减少
+			               if (parseInt(t.val())>1) {                       
+			                t.val(parseInt(t.val())-1)  
+			                }else{  
+			                //当$-为1时，$-不可读状态  
+			                $("btn_reduce").attr("disabled","disabled")     
+			               }  
+			    })  
+			     
+			}) 
+
+
+			// cookie的读取
+			
 	})
 })

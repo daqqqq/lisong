@@ -4,6 +4,32 @@
 @import 'jquery.lxcarousel.css';
 // @import 'reset';
 // @import 'syle';
+.leftFixeBar{
+	// padding-top:
+	.leftFixeBar_inner{
+		position: fixed;
+		left: 0;
+		top: 25%;
+		width: 32px;
+		height: 44%;
+		background: #eaeaea;
+		text-align: center;
+		color: #fff;
+		.lef li >a{
+			padding: 10px 3px;
+			color: #f00;
+			display: block;
+			// height: 40px;
+			font-size: 18px;
+			&:hover{background: #f00;color: #fff;}
+			cursor: pointer;
+			.fbgou{
+				display: block;
+			}
+		}
+		
+	}
+}
 .index_tu{
 		position: relative;
 	}
@@ -14,7 +40,7 @@
 	// top:0;
  	width: 1200px;
  	.ban_list{	
- 		position: absolute;left: 32px;top:236px;
+ 		position: absolute;left: 32px;top:262px;
  		height: 453px;
  		width: 200px;
  		background: #C81623;
@@ -167,6 +193,68 @@
 				border-left:2px solid #c0c0c0;
 				display:in-block;
 				font-size: 12px;
+			}
+		}
+	}
+}
+.introduce{
+	width: 1200px;
+	margin:0 auto;
+	// img{
+	// 	min-width: 400px;
+	// 	min-height: 300px;
+	// }
+	>p{
+			position:relative;
+			padding-left:5px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 16px;
+			>span{
+				font-size: 16px;
+				background:#f00;
+				color: #fff;
+				margin-right: 5px;
+			}
+			.ding{
+				position:absolute;
+				right: 0;
+				top:5px;
+				color: #000;
+			}
+		}
+	.introduce_fir{
+		width: 320px;
+		float: left;
+		.introduce_l_middle{
+			// height: 600px;
+			width: 320px;
+			padding-top:20px;
+			>li{
+				float: left;
+				width: 76px;
+				text-align: center;
+				margin-bottom: 12px;
+				border-right:1px solid #ccc;
+				a{
+					color: #ac6f05;
+					
+				}
+			}
+		}
+	}
+	.introduce_right{
+		float: left;
+		width: 880px;
+		.Rtop{
+			div:first-child{width: 440px;height:236px;}
+			.tu2{
+				float: left;
+				width: 219px;
+				height: 100%;
+				>a img{
+					width: 100%;
+				}
 			}
 		}
 	}
