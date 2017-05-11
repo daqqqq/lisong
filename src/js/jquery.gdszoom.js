@@ -9,7 +9,7 @@
 
 			//放大区域的大小
 			width:400,
-			height:500
+			height:400
 		}
 		// 遍历jquery对象
 		return this.each(function(){
@@ -54,7 +54,7 @@
             if(opt.position === 'right'){
             	$bigZoom.css({
             		left:$smallPic.offset().left + $smallPic.outerWidth() + opt.gap,
-            		top:$smallPic.offset().top+240
+            		top:$smallPic.offset().top+260
             	});
             }else if(opt.position === 'left'){
             	$bigZoom.css({

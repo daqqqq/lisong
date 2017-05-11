@@ -1,5 +1,5 @@
 require(['config'],function(){
-	require(['jquery','slideshow'],function(){
+	require(['jquery','slideshow','lazy'],function(){
 		//引入头部与尾巴样式
 		$('header').load('html/header.html',function(){
 			$('header img').each(function(index,ele){
@@ -20,8 +20,9 @@ require(['config'],function(){
 				'img/indexbanner4.jpg','img/indexbanner5.jpg',
 				'img/indexbanner6.jpg','img/indexbanner7.jpg'],
 				height:453,
-			});
+		});
 
-
+		// 懒加载
+		$("img").lazyload({effect: "fadeIn"});
 	})
 })

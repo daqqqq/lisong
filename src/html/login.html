@@ -5,6 +5,7 @@
 	<title>登陆图</title>
 	<link rel="stylesheet" href="../css/img/iconfont/iconfont.css">
 	<link rel="stylesheet" href="../css/login.css">
+	<script src="../js/require.js" data-main='../js/login.js'></script>
 	<!-- <script src="../js/require.js" data-main='../js/login.js'></script> -->
 <!-- 	<script>
 		$(()=>{			
@@ -33,12 +34,12 @@
 			<a href="" class="middle_l"><img src="../img/login_tu.jpg"></a>
 			<div class="middle_r">
 				<span>购酒网会员登录</span>
-				<label><input type="text" value="" class="text1" placeholder="邮箱/手机号码"></label>
-				<label><input type="text" value="密码：" class="text1"></label>	
+				<label><input type="text" value="" class="text1" id="email" placeholder="邮箱/手机号码"></label>
+				<label><input type="text" value="密码：" class="text1" id="password"></label>	
 				<p><input type="checkbox">自动登录</p>
 				<p><a href="">忘记密码？</a></p>
 				<div class="login_de">
-					<span><a href="" class="login_gjw">登录</a></span>
+					<span><a class="login_gjw">登录</a></span>
 				</div>
 				<div class="login_b">
 					<p>使用合作帐号登录</p>

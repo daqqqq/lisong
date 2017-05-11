@@ -1,0 +1,64 @@
+@import 'base.css';
+// 购物车结算
+.spe_top{
+	background:#EAEAEA;
+	height: 50px;
+	.box_spe{
+		width: 1200px;
+		margin: 0 auto;
+		>p{
+			line-height: 50px;
+			width: 300px;
+			float: left;
+			font-size: 14px;
+			height: 50px;
+			>span{color:#f00;}	
+		}
+		.spe_ul{
+			float: right;
+			>li{
+				float: left;
+				>a{
+					display:block;
+					font-size: 14px;
+					padding: 18px 25px;			
+				}
+			}
+		}
+	}	
+}
+.spe_container{
+	width: 1200px;
+	margin:0 auto;
+	.spe_main{
+		height: 90px;
+		padding-top:29px;
+		>p{		
+			position:relative;
+			font-size: 18px;
+			>span{
+				display: inline-block;
+				color: #f00;
+				font-size: 14px;
+				margin-left: 15px;
+			}
+			.btn_get{
+					cursor: pointer;
+					border-radius:8px;
+					position: absolute;
+					right: 0;top:0;
+					width: 120px;
+					border: none;
+					color: #fff;
+					outline:none;
+					height: 45px;
+					background:#c40000;
+				}
+		}
+	}
+	.spe_list{
+
+		height: 300px;
+		border:1px solid #c0c0c0;
+	}
+}
