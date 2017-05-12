@@ -16,8 +16,9 @@ img {
 
 .imfor_top div {
 	height: 40px;
-	background-color: deepskyblue;
+	background-color: #eaeaea;
 	font-weight: bold;
+	line-height: 40px;
 }
 
 .imfor div {
@@ -31,17 +32,17 @@ img {
 
 .check,
 .check_top {
-	width: 70px;
+	width: 100px;
 }
 
 .pudc,
 .pudc_top {
-	width: 400px;
+	width: 600px;
 }
 
 .pices,
 .pices_top {
-	width: 60px;
+	width: 100px;
 }
 
 .totle {
@@ -50,17 +51,21 @@ img {
 
 .num,
 .num_top {
-	width: 90px;
+	width: 120px;
 }
 
 .num input {
-	width: 40px;
+	width: 60px;
+}
+.text_num{
+	text-align: center;
 }
 
-.num span {
+.num >span {
 	height: 23px;
 	width: 17px;
-	border: 1px solid #e5e5e5;
+	margin:2px; 
+	border: 1px solid #eaeaea;
 	background: #f0f0f0;
 	text-align: center;
 	line-height: 23px;
@@ -70,25 +75,26 @@ img {
 
 .totle,
 .totle_top {
-	width: 60px;
+	width: 80px;
 }
 
 .del,
 .del_top {
-	width: 60px;
+	width: 200px;
 	cursor: pointer;
 }
 
 .imfor_top div,
 .imfor div {
 	float: left;
-	border: 1px solid deepskyblue;
+	border: 1px dotted #eaeaea;
 	text-align: center;
 }
 
-.imfor_top,
+.imfor_top,	
 .imfor {
-	width: 800px;
+	width: 1200px;
+	background: #f00;
 }
 
 .foot {
@@ -97,7 +103,7 @@ img {
 
 #box,
 #content_box {
-	width: 800px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -110,7 +116,7 @@ img {
 }
 
 .foot {
-	width: 800px;
+	width: 1200px;
 	background-color: #eaeaea;
 }
 

@@ -20,7 +20,7 @@
 
 .spe_container .spe_main { height: 90px; padding-top: 29px; }
 
-.spe_container .spe_main > p { position: relative; font-size: 18px; }
+.spe_container .spe_main > p { position: relative; font-size: 18px; padding-bottom: 25px; border-bottom: 3px solid #f00; }
 
 .spe_container .spe_main > p > span { display: inline-block; color: #f00; font-size: 14px; margin-left: 15px; }
 
