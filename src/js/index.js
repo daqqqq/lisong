@@ -24,5 +24,46 @@ require(['config'],function(){
 
 		// 懒加载
 		$("img").lazyload({effect: "fadeIn"});
+
+		// 楼层效果
+		 // var oNav = $('.lef'); //导航壳
+   //          var aNav = oNav.find('li'); //导航
+   //          var aDiv = $('#louceng'); //楼层
+   //          var oTop = $('.goTop'); //回到顶部 
+   //          $(window).scroll(function() {
+   //                  //可视窗口高度
+   //                  var winH = $(window).height();
+   //                  //鼠标滚动的距离
+   //                  var iTop = $(window).scrollTop();
+
+   //                  if(iTop >= $("#louceng").height()) {
+   //                      oNav.fadeIn();
+   //                      oTop.fadeIn();
+   //                      //鼠标滑动样式改变
+   //                      aDiv.each(function() {
+   //                          if(winH + iTop - $(this).offset().top > winH / 2) {
+   //                              aNav.removeClass('active');
+   //                              aNav.eq($(this).index()).addClass('active');
+   //                          }
+   //                      })
+   //                  } else {
+   //                      oNav.fadeOut();
+   //                      oTop.fadeOut();
+   //                  }
+   //              })
+   //          //点击回到当前楼层
+   //          aNav.click(function() {
+   //              var t = aDiv.eq($(this).index()).offset().top;
+   //              $('body,html').animate({
+   //                  "scrollTop": t
+   //              }, 500);
+   //              $(this).addClass('active').siblings().removeClass('active');
+   //          });
+   //          //回到顶部
+   //          oTop.click(function() {
+   //              $('body,html').animate({
+   //                  "scrollTop": 0
+   //              }, 500)
+   //          })
 	})
 })

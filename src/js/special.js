@@ -1,5 +1,5 @@
 require(['config'],function(){
-	require(['jquery','addcont'],function(){
+	require(['jquery','addcont','com'],function(){
 			$(function() {
 					totl();
 					adddel()
@@ -20,29 +20,8 @@ require(['config'],function(){
 								totl();
 							})
 						})
-						//添加一行
-					$(".foot_add").click(function() {
-							var str = '<div class="imfor">' +
-								'<div class="check">' +
-								'<input type="checkbox" class="Each" />' +
-								'</div>' +
-								'<div class="pudc"><img src="img/5.jpg" /><span>Fujifilm/富士 instax mini 25</span></div>' +
-								'<div class="pices">640.6</div>' +
-								'<div class="num"><span class="reduc">&nbsp;-&nbsp;</span><input type="text" value="1" /><span class="add">&nbsp;+</span></div>' +
-								'<div class="totle">640.6</div>' +
-								'<div class="del">删除</div>' +
-								'</div>';
-							$(this).parent().prev().append(str);
-							totl();
-							adddel()
-							$(".del").each(function() {
-								$(this).click(function() {
-									$(this).parent().remove();
-									totl();
-								})
-							})
-						})
-						//全选删除										
+
+				//全选删除										
 					$(".foot_del").click(function() {
 						$(".Each").each(function() {
 							if($(this).prop('checked')) {
@@ -62,7 +41,9 @@ require(['config'],function(){
 				var sum = 0;
 				$(".totle").each(function() {
 					sum += parseFloat($(this).text());
+					console.log(sum);
 					$("#susum").text(sum);
+
 				})
 			}
 			function adddel(){
@@ -70,7 +51,8 @@ require(['config'],function(){
 					//加
 					$(".add").each(function() {
 							$(this).click(function() {
-								var $multi = 0;
+								console.log($(this))
+								var $multi	 = 0;
 								var vall = $(this).prev().val();
 								vall++;
 								$(this).prev().val(vall);
@@ -97,7 +79,33 @@ require(['config'],function(){
 
 						})
 			}
+		// 拿到cookie
+		var goodlist=getCookie('carlist')
 
-		
-	});
-})
+			goodlist=goodlist ? JSON.parse(goodlist):[];
+			console.log(goodlist)
+
+			// jq创建一个UL和总价
+			var $imforTop=$('<div/>');
+			 $imforTop.addClass('imfor');
+
+			var tprice=0;
+
+			//在div.infor中写入cookies；
+			
+			$imforTop.html(goodlist.map(function(item){
+				tprice+=item.price*item.qty;
+				console.log(tprice)
+			// 	return '<li><img src="'+item.imgUrl+'"></li><li><h4>'+item.name+'</h4></li><li>
+			// 	<p class="price">'+'￥'+item.price+'</p></li><li>'+item.qty+'</li><li>'+'￥'+tprice+'</li>';
+			// }).join(''));
+			return '<div class="check"><input type="checkbox" class="Each"/></div><div class="pudc"><img src="'+item.imgUrl+'"></div><div class="pices">'+item.price+'</div><div class="num"><span class="reduc">&nbsp;-&nbsp;</span><input type="text" value="'+item.qty+'" class="text_num" /><span class="add">&nbsp;+</span></div><div class="totle">'+tprice+'</div><div class="del">删除</div></div>';
+			 		}).join(''));
+			console.log($imforTop)
+			//ul写进DIV中 price写进sub中
+			$('#content_box').append($imforTop);
+			// console.log(${imgUrl});
+
+
+	})
+})	

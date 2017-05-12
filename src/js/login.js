@@ -8,7 +8,7 @@ require(['config'],function(){
 		        }, function(response){
 		          var $obj = eval('(' + response + ')');
 		          if($obj.state){
-		            window.location.href = 'success.html';
+		            window.location.href = 'list.html';
 		          } else {
 		            alert($obj.message);
 		          }

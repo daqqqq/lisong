@@ -7,7 +7,8 @@ require.config({
 		"shopcar":"jquery.fly",
 		"lazy":"../lib/jquery.lazyload",
 		"confirm":"jquery-confirm",
-		"addcont":"js"
+		"addcont":"js",
+		"com":"common"
 
 	},	
 	 shim:{
@@ -17,6 +18,7 @@ require.config({
     	"shopcar":["jquery"],
     	"lazy":["jquery"],
     	"confirm":["jquery"],
-    	"addcont":["jquery"]
+    	"addcont":["jquery"],
+    	"com":["jquery"]
     }
 });

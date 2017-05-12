@@ -9,7 +9,8 @@ require(['config'],function(){
 				}, function(response){
 					var $obj = eval('(' + response + ')');
 					if($obj.state){
-						alert('注册成功！');
+						// alert('注册成功！');
+						window.location.href = 'success.html';
 					} else {
 						alert($obj.message);
 					}

@@ -1,5 +1,5 @@
 require(['config'],function(){
-	require(['jquery','gfdzoom','shopcar'],function(){
+	require(['jquery','gfdzoom','shopcar','com'],function(){
 		$('header').load('../html/header.html');
 		$('footer').load('../html/footer.html');
 		// 放大镜效果
@@ -13,7 +13,10 @@ require(['config'],function(){
 
 				});
 			})
-
+			// 点击按扭弹出购物车
+			$('.add_car').on('click',function(){
+				$('.shop_opp').css('display','block');
+			});
 			// 购物车飞入
 			$('.add_car').on('click', addCart);
 				function addCart(event) {
@@ -30,6 +33,9 @@ require(['config'],function(){
 					        height: 0
 					    }
 					});
+				   	// onend:{
+				    // 	$('.add_car').remove('flyer');
+				    // }
 				}
 
 
@@ -55,6 +61,53 @@ require(['config'],function(){
 
 
 			// cookie的读取
+				// cookie数据的存储
+			// 获取商品的图片
+			var $img=$('.shop_cookie');
+			//获取商品名字
+			var $name=$('.lisri_name');
+			//获取商品的价格
+			var $price=$('.cont_pices');
+
+			var $prices=$price.text();
+		
+			var carlist=getCookie('carlist')
+
+			carlist = carlist ? JSON.parse(carlist) : [];
+
+			$('.add_car').click(function(){	
+				var hasGood=false;
+				console.log($prices)
+				for(var i=0;i<carlist.length;i++){
+					if (carlist[i].price== $prices){
+						console.log(carlist[i])
+						hasGood = true;
+						carlist[i].qty++;
+						break;
+						
+					}
+				}
+				// $(carlist).each(function(idx,item){
+				// 	if(item.price==$prices){
+				// 		hasGoods = true;
+				// 		console.log(22)
+				// 		$(carlist)[0].qty++;
+				// 	}
+				// })
+				if (hasGood ==false){
+					var goods={
+						imgUrl:$img.attr('src'),
+						name:$name.text(),
+						price:$price.text(),
+						qty:1
+					}	
+					carlist.push(goods)
+				}
+				console.log($name.text());
+				console.log(carlist)
+				setCookie('carlist',JSON.stringify(carlist));
+			})
+
 			
 	})
 })
