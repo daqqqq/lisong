@@ -107,5 +107,64 @@ require(['config'],function(){
 			// console.log(${imgUrl});
 
 
+			// //加减商品的数量并重新写入cookie
+			// var $reduce=$('.reduc');
+			// var $add=$('.add');
+
+			// $reduce.click(function(){
+
+			// 	var $names=carlist[0].name
+			// 	var qty=$('.text_num').val()
+			// 	console.log(qty)
+
+			// 	//重新写入cookie值
+			// 	//
+			// 	for(var i=0;i<carlist.length;i++){
+			// 		if (carlist[i].name== $names){
+			// 			carlist[i].qty--;
+			// 			if (carlist[i].qty<=0) {
+			// 				carlist[i].qty=0
+			// 			}
+			// 		$('.text_num').attr('value',carlist[i].qty);
+			// 		var tprice=carlist[i].qty*carlist[i].price;
+			// 		$('.totle').text(tprice.toFixed(2));
+			// 		$jiage.text(tprice.toFixed(2));
+			// 		$('#susum').text('￥'+tprice.toFixed(2));
+			// 		break;
+						
+			// 		}
+			// 	}
+			// 	setCookie('carlist',JSON.stringify(carlist));
+				
+			// })
+			// //增加数量重新添加到cookie中
+			// $add.click(function(){
+			// 	var $names=carlist[0].name
+			// 	var qty=$('.qtys').val()
+
+			// 	//重新写入cookie值
+			// 	//
+			// 	for(var i=0;i<carlist.length;i++){
+			// 		if (carlist[i].name== $names){
+			// 			carlist[i].qty++;
+
+			// 			//只能购买30件
+			// 			if (carlist[i].qty>=30) {
+			// 				carlist[i].qty=30
+			// 			}
+			// 		$('.qtys').attr('value',carlist[i].qty);
+			// 		var tprice=carlist[i].qty*carlist[i].price;
+			// 		$('.tprice').text('￥' + tprice.toFixed(2));
+			// 		$jiage.text(tprice.toFixed(2));
+			// 		$jiner.text('￥'+tprice.toFixed(2));
+			// 		break;
+						
+			// 		}
+			// 	}
+			// 	setCookie('carlist',JSON.stringify(carlist));
+			// })
+
+
+
 	})
 })	

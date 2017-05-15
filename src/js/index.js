@@ -6,6 +6,10 @@ require(['config'],function(){
 					// $(this).attr('src','../'+($(this).attr('src')));
 					$(this).attr('src',($(this).attr('src')).substr(3));
 			})
+         $('header .nav_main a').each(function(index,ele){
+               // $(this).attr('src','../'+($(this).attr('src')));
+               $(this).attr('src',($(this).attr('src')).substr(3));
+         })
 		});
 
 		$('footer').load('html/footer.html',function(){
