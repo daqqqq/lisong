@@ -15,19 +15,27 @@
 		background: #eaeaea;
 		text-align: center;
 		color: #fff;
-		.lef li >a{
-			padding: 10px 3px;
-			color: #f00;
-			display: block;
-			// height: 40px;
-			font-size: 18px;
-			&:hover{background: #f00;color: #fff;}
-			cursor: pointer;
-			.fbgou{
-				display: block;
+		.lef {
+				li {
+					li:hover i {
+               			 display: none;
+           			}
+					>a{
+						padding: 10px 3px;
+						color: #f00;
+						display: block;
+						// height: 40px;
+						font-size: 18px;
+						&:hover{background: #f00;color: #fff;}
+						cursor: pointer;
+						.fbgou{
+							display: block;
+						}
+					}
 			}
+					
 		}
-		
+			
 	}
 }
 .index_tu{
